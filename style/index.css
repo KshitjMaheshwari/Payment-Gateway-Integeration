@@ -18,15 +18,24 @@ header {
 }
 
 .sideheading {
+    display: flex;
     justify-content: left;
+    text-align: center;
     width: 50%;
     padding: 20px;
     font-size: 20px;
     margin-left: 30px;
 }
 
+.sideheading img{
+    height: 10vh;
+    border-radius: 50%;
+}
+
 .sideheading h2 {
+    padding: 20px;
     color: white;
+
 }
 
 nav {
@@ -40,7 +49,7 @@ nav a {
     display: block;
     color: white;
     text-decoration: none;
-    padding: 30px;
+    padding: 20px;
     margin-right: 10px;
     font-size: 20px;
 }
