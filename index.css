@@ -131,3 +131,60 @@ footer h2 {
     right: 20px;
     bottom: 20px;
 }
+
+@media (max-width:768px) {
+    .show-btn {
+        display: block;
+        position: relative;
+        transform: translateX(700px);
+        transition: 0.7s;
+
+    }
+    .sideheading h2{
+        font-size: 20px;
+        margin-left: -50px;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+        padding: 80px 0px;
+        line-height: normal;
+        transition: 0.7s;
+        display: block;
+        justify-content: center;
+    }
+
+    #chk:checked ~ nav {
+        right: 0;
+        display: block;
+    }
+
+    #chk:checked ~ .hide-btn {
+        display: block;
+        z-index: 100;
+        position: fixed;
+    }
+
+    nav a:hover {
+        background: none;
+        color: white;
+    }
+
+    nav a:first-child {
+        background: #333;
+        color: white;
+        height: 10vh;
+    }
+
+    .hide-btn {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+
+}
