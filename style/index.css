@@ -177,6 +177,7 @@ footer h2 {
         display: block;
         z-index: 100;
         position: fixed;
+        opacity: 1;
     }
 
     nav a:hover {
