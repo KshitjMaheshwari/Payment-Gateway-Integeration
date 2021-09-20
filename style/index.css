@@ -71,7 +71,6 @@ nav a:first-child {
 }
 .show-btn, .hide-btn {
     display:none ;
-    /*padding: 20px;*/
     font-size: 30px;
     color: white;
 }
@@ -92,7 +91,6 @@ main {
 
 main > h2{
     font-size: 40px;
-    /*line-height: 90vh;*/
 }
 
 main > button {
